@@ -1,8 +1,8 @@
-🍽️ Restaurant Reservation Mobile Application
+ Restaurant Reservation Mobile Application
 A full-stack mobile application that allows users to book tables at restaurants quickly and securely. The system combines a mobile frontend with a RESTful backend and a relational database.
 
 
-🧰 Tech Stack
+ Tech Stack
 Mobile Interface: React Native (Expo)
 
 Backend: Node.js with Express
@@ -14,12 +14,12 @@ Authentication & Security: JWT (JSON Web Tokens), bcrypt for password hashing
 Developer Tools: Postman (for API testing), NetBeans
 
 
-📦 Getting Started
+ Getting Started
 Follow these steps to run the project locally:
 
 Clone the Repository
 
-git clone https://github.com/Zournatzakis/restaurant-booking-app.git
+git clone
 cd restaurant-booking-app
 Install Backend Dependencies
 
@@ -38,7 +38,7 @@ Start MariaDB
 Ensure your database service is running locally and that credentials match your environment settings.
 
 
-🔐 Environment Variables
+ Environment Variables
 Create a .env file in the backend directory with the following content:
 
 env
@@ -51,7 +51,7 @@ DB_PASSWORD=your_db_password
 DB_NAME=restaurant_app
 JWT_SECRET=your_jwt_secret
 
-📚 API Documentation
+ API Documentation
 The backend exposes RESTful endpoints for:
 
 POST /auth/register – Register a new user
@@ -68,7 +68,7 @@ DELETE /reservations/:id – Cancel a reservation
 
 Test these using Postman or any other API client.
 
-🗂️ Project Structure
+ Project Structure
 
 restaurant-booking-app/
 ├── backend/
@@ -83,7 +83,7 @@ restaurant-booking-app/
 │   ├── navigation/
 │   └── App.js
 
-🚀 Deployment
+ Deployment
 To deploy the backend:
 
 Use services like Render, Railway, or Heroku (with custom port configuration)
@@ -98,5 +98,5 @@ Use Expo Go for testing
 
 For production, use EAS Build or export the app for iOS/Android stores
 
-🧑‍💻 Author
+ Author
 Nikolaos Tagkalos
